@@ -13,6 +13,6 @@ namespace BusinessLayer.Abstract
         void CategoryDelete(Category category);
         void CategoryUpdate(Category category);
         Category GetById(int id);
-        List<Category> GetList(Category category);
+        List<Category> GetList();
     }
 }
