@@ -20,6 +20,8 @@ namespace CoreDemo.Controllers
         {
             ViewBag.i = id;
             var values = bm.GetBlogById(id);
+            var values2 = bm.GetById(id);
+            ViewBag.yazarıd = values2.WriterID;
             return View(values);
         }
     }
